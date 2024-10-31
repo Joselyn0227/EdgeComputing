@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es Edge Computing?</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="accordion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <script src="funciones.js"></script>
+    <nav class="navbar">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="que-es.html">¿Qué es?</a>
+            <a href="como-funciona.html">Cómo funciona</a>
+            <a href="beneficios.html">Beneficios</a>
+            <a href="aplicaciones.html">Aplicaciones</a>
+            <a href="retos.html">Retos</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1>¿Qué es Edge Computing?</h1>
+        </header>
+
+        <div class="container">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Definición básica
+                        <span class="arrow">&#9662;</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Edge computing es un paradigma de computación distribuida que consiste en procesar y analizar datos lo más cerca posible de donde estos se generan - en el "borde" o "límite" de la red, en lugar de en ubicaciones centralizadas distantes. Este modelo de computación traslada las capacidades de procesamiento, almacenamiento y análisis directamente a los dispositivos, sensores, actuadores y otros puntos finales que se encuentran físicamente próximos a la fuente de información. Es una evolución natural de la arquitectura tradicional cliente-servidor que responde a las crecientes necesidades de procesamiento en tiempo real y a la explosión de dispositivos conectados en el Internet de las Cosas (IoT). En el edge computing, la inteligencia computacional se distribuye a lo largo de toda la red, desde los dispositivos más pequeños hasta los centros de datos tradicionales, creando una infraestructura tecnológica más versátil y adaptativa. 
+                            <br>Aspectos principales:</p>
+                        <ul>
+                            <li>Descentralización del procesamiento de datos</li>
+                            <li>Proximidad física al origen de los datos</li>
+                            <li>Red de dispositivos y sensores interconectados en el borde</li>
+                            <li>Capacidad de computación local y autónoma</li>
+                            <li>Arquitectura distribuida que complementa la computación en la nube</li>
+                            <li>Integración con dispositivos IoT y sistemas embebidos</li>
+                            <li>Procesamiento de datos en tiempo real en el punto de origen</li>
+                          </ul>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Importancia en la actualidad
+                        <span class="arrow">&#9662;</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>El edge computing se ha convertido en un componente crítico de la infraestructura tecnológica moderna por diversas razones fundamentales:
+                            <h4>Crecimiento Exponencial de Datos</h4>
+                        </p>
+                        <p>
+                            La explosión de dispositivos IoT y la digitalización masiva están generando cantidades sin precedentes de datos. Para 2025, se estima que habrá más de 75 mil millones de dispositivos IoT conectados. El edge computing permite procesar esta avalancha de datos de manera eficiente y escalable, evitando la sobrecarga de las redes y centros de datos centralizados.
+                        </p> 
+                        <h4>Demanda de Respuesta en Tiempo Real</h4>
+                        <p>En la era digital actual, numerosas aplicaciones requieren respuestas instantáneas:</p>
+                        <ul>
+                            <li>Vehículos autónomos que necesitan tomar decisiones en milisegundos</li>
+                            <li>Sistemas de monitoreo médico que deben detectar emergencias instantáneamente</li>
+                            <li>Procesos industriales automatizados que requieren ajustes inmediatos</li>
+                            <li>Aplicaciones de realidad aumentada y virtual que demandan latencia ultrabaja</li>
+                          </ul>
+                        
+                          <h4>Optimización de Recursos y Costos</h4>
+                          <p>El procesamiento en el borde ofrece beneficios económicos significativos:</p>
+                          <ul>
+                              <li>Reducción del ancho de banda necesario para transmisión de datos</li>
+                              <li>Disminución de costos de almacenamiento en la nube</li>
+                              <li>Menor consumo energético en centros de datos</li>
+                              <li>Optimización de recursos computacionales</li>
+                            </ul>
+                        
+                            <h4>Mejora en la Seguridad y Privacidad</h4>
+                            <p>En un mundo cada vez más preocupado por la privacidad de los datos:</p>
+                            <ul>
+                                <li>Vehículos autónomos que necesitan tomar decisiones en milisegundos</li>
+                                <li>Sistemas de monitoreo médico que deben detectar emergencias instantáneamente</li>
+                                <li>Procesos industriales automatizados que requieren ajustes inmediatos</li>
+                                <li>Aplicaciones de realidad aumentada y virtual que demandan latencia ultrabaja</li>
+                              </ul>
+
+                              <h4>Demanda de Respuesta en Tiempo Real</h4>
+                              <p>En la era digital actual, numerosas aplicaciones requieren respuestas instantáneas:</p>
+                              <ul>
+                                  <li>Vehículos autónomos que necesitan tomar decisiones en milisegundos</li>
+                                  <li>Sistemas de monitoreo médico que deben detectar emergencias instantáneamente</li>
+                                  <li>Procesos industriales automatizados que requieren ajustes inmediatos</li>
+                                  <li>Aplicaciones de realidad aumentada y virtual que demandan latencia ultrabaja</li>
+                                </ul>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Diferencias con la computación tradicional
+                        <span class="arrow">&#9662;</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>A diferencia de la computación tradicional en la nube, el Edge Computing procesa los datos cerca del origen, reduciendo el tiempo de respuesta y el ancho de banda necesario para la transmisión de datos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contact-info">
+            <p>Contacto: +57 317 123 4567</p>
+        </div>
+        <div class="credits">
+            <p>Elaborado por: Ismael Pérez Ortiz y Joselyn Nieva Morales</p>
+        </div>
+    </footer>
+</body>
+</html>
